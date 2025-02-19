@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <title>Simple Web Page - [Your Name]</title>
+    <style>
+        body {
+            background-color: #f0e68c; /* Light yellow background */
+        }
+    </style>
+</head>
 <body>
-<h2>Simple Web Page with HTML and JavaScript</h2>
-<p>JavaScript can change HTML attribute values.</p>
-<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
-<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
-<img id="myImage" src="pic_bulboff.gif" style="width:100px">
-<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
+    <h2>[Your Name]'s Interactive Light Switch</h2>
+
+    <p>Click the buttons below to turn the light on or off.</p>
+
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+
 </body>
-</html> 
+</html>
 
